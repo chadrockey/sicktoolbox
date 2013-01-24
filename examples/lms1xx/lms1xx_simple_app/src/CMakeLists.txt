@@ -1,0 +1,2 @@
+add_executable(lms1xx_simple_app main.cc)
+target_link_libraries(lms1xx_simple_app lms1xx)

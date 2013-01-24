@@ -1,0 +1,17 @@
+{
+  "folders":
+  [
+    {
+      "path": "."
+    }
+  ],
+  "settings":
+  {
+    "sublimeclang_options":
+    [
+      "-I/usr/include",
+      "-I/usr/local/include",
+      "-I${folder:${project_path:sicktoolbox.sublime-project}}/include"
+    ]
+  }
+}

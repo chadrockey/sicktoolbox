@@ -1,0 +1,1 @@
+add_subdirectory(lms1xx_simple_app)

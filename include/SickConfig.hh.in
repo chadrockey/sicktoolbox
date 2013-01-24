@@ -1,0 +1,13 @@
+// /* Define if you have gnuplot */
+#cmakedefine HAVE_GNUPLOT 1
+
+// /* Define if you have linux/serial.h */
+#cmakedefine HAVE_LINUX_SERIAL_H 1
+
+#define VERSION @SICKTOOLBOX_VERSION@
+
+/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
+   significant byte first (like Motorola and SPARC, unlike Intel). */
+#if defined __BIG_ENDIAN__
+# define WORDS_BIGENDIAN 1
+#endif
